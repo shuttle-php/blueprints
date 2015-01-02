@@ -1,0 +1,22 @@
+{
+    "name": "shuttle/contracts",
+    "description": "Class contracts for extending the Shuttle framework",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Christopher L Bray",
+            "email": "chris@brayniverse.com",
+            "homepage": "http://brayniverse.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shuttle\\Contracts\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
