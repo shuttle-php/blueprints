@@ -16,7 +16,7 @@ use Closure;
  * Describes the minimum expectations for a dependency container for extending
  * the Shuttle framework.
  */
-interface ContainerInterface
+interface Container
 {
 	
 }
