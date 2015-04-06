@@ -41,7 +41,7 @@ interface Container
      * Determine whether an item has been registered under the specified key.
      * 
      * @param string $alias
-     * @return boolean True if the item exists, otherwise false.
+     * @return bool True if the item exists, otherwise false.
      */
     public function exists($alias);
 }
