@@ -1,18 +1,7 @@
 <?php
 
-/**
- * S H U T T L E - a minimalist PHP framework
- *
- * @package Shuttle\Contracts
- * @author  Christopher L Bray <chris@brayniverse.com>
- * @license MIT
- */
- 
 namespace Shuttle\Contracts\Container;
 
-/**
- * This interface defines a single method for resolving it's own content.
- */
 interface ContainerItem
 {
     /**

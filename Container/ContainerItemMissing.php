@@ -2,6 +2,9 @@
 
 namespace Shuttle\Contracts\Container;
 
-class ContainerItemMissing extends \Exception
+use Exception;
+
+class ContainerItemMissing extends Exception
 {
+    //
 }
