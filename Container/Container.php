@@ -2,15 +2,17 @@
 
 namespace Shuttle\Contracts\Container;
 
+use Closure;
+
 interface Container
 {
     /**
      * Register a new container item.
      * 
      * @param string $alias
-     * @param ContainerItem $value
+     * @param ContainerItem|Closure $value
      */
-    public function register(string $alias, ContainerItem $value);
+    public function register(string $alias, $value);
 
     /**
      * Resolve a container item.
